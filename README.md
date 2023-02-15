@@ -50,6 +50,7 @@ antigen use oh-my-zsh
 # ohmyzsh plugins
 antigen bundle git
 antigen bundle pip
+antigen bundle globalias
 
 # external plugins
 antigen bundle zsh-users/zsh-syntax-highlighting
