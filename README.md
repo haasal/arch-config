@@ -12,6 +12,9 @@ packages=(
     zsh
     python
     ssh
+    # advanced
+    firefox
+    github-cli
 )
 
 sudo pacman -S --needed "${packages[@]}"
@@ -34,6 +37,7 @@ yay -S ttf-firacode-nerd antigen
 Edit `.zshrc`:
 
 ```zsh
+alias gac="git add -A && git commit -m"
 alias spm="sudo pacman"
 alias open="xdg-open"
 
