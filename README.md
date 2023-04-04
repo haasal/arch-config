@@ -82,3 +82,23 @@ To add support for a new language/framework use:
 :TSInstall <lang>
 :MasonInstall <lang>
 ```
+
+## Alacritty setup
+
+```bash
+# Install alacritty
+spm -S alacritty
+# Install themes extension from here: https://github.com/alacritty/alacritty-theme
+```
+
+Set `~/.config/alacritty/alacritty.yml`
+
+```yml
+import:
+ - ~/.config/alacritty/themes/themes/tokyo-night-storm.yaml
+
+window:
+   dimensions:
+     columns: 133
+     lines: 40
+```
